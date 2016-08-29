@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CCAlert" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6T-0m-1cl">
+                                <rect key="frame" x="277" y="135" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7fB-Bc-dPx"/>
+                                    <constraint firstAttribute="width" constant="46" id="9Tv-1C-up7"/>
+                                </constraints>
+                                <state key="normal" title="style2"/>
+                                <connections>
+                                    <action selector="style2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0gf-NP-YoX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjT-d6-Twt">
+                                <rect key="frame" x="363" y="135" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="10c-Rg-xWj"/>
+                                    <constraint firstAttribute="width" constant="46" id="rQ8-b8-e6b"/>
+                                </constraints>
+                                <state key="normal" title="style3"/>
+                                <connections>
+                                    <action selector="style3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WQY-PP-eos"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wb-wo-Cil">
+                                <rect key="frame" x="196" y="135" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HfU-PD-7fK"/>
+                                    <constraint firstAttribute="width" constant="46" id="m9M-L6-V0u"/>
+                                </constraints>
+                                <state key="normal" title="style1"/>
+                                <connections>
+                                    <action selector="style1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kvz-It-fUb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="G6T-0m-1cl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hrf-iV-vpm"/>
+                            <constraint firstItem="G6T-0m-1cl" firstAttribute="leading" secondItem="5wb-wo-Cil" secondAttribute="trailing" constant="35" id="YZF-vp-SQr"/>
+                            <constraint firstItem="G6T-0m-1cl" firstAttribute="centerY" secondItem="5wb-wo-Cil" secondAttribute="centerY" id="eJ1-By-F36"/>
+                            <constraint firstItem="qjT-d6-Twt" firstAttribute="centerY" secondItem="5wb-wo-Cil" secondAttribute="centerY" id="sKW-qd-h3H"/>
+                            <constraint firstItem="G6T-0m-1cl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="115" id="vcn-e1-F56"/>
+                            <constraint firstItem="qjT-d6-Twt" firstAttribute="leading" secondItem="G6T-0m-1cl" secondAttribute="trailing" constant="40" id="yhv-yw-ZY4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="411" y="399"/>
+        </scene>
+    </scenes>
+</document>
