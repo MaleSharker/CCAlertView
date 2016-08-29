@@ -5,6 +5,7 @@ iOS ActionSheet view
 
 CCAlertView是以UICollectionView的形式实现的
 ------------------
+
 首先实例化一个alertView
 
 let sheetView = CCAlertSheetView.instanceAlertView()
